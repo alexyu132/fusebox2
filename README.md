@@ -1,6 +1,6 @@
 # FuseBox2
 A new CoreXY 3D printer design.
-![FuseBox2 Render](image/render,jpg)
+![FuseBox2 Render](image/render.jpg)
 
 ## Specifications
 * Rigid 2020(top and sides)/2040(bottom) aluminum extrusion frame
