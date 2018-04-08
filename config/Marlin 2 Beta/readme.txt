@@ -1,0 +1,1 @@
+These config files are for Marlin 2 with an AZSMZ Mini board. Copy the configuration files into the Marlin directory and the pins file into the src/pins directory.
