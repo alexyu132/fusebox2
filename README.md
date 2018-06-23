@@ -5,7 +5,7 @@ A new CoreXY 3D printer design.
 ## Specifications
 * Rigid 2020(top and sides)/2040(bottom) aluminum extrusion frame
 * Non-crossing CoreXY belt path
-* 210x200x220mm build area
+* 210x200x210mm build area
 * 390x340x412mm size
 * PCB heatbed with 3 point leveling
 * Centrifugal part cooling fan
