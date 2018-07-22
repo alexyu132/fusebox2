@@ -14,7 +14,7 @@ A new CoreXY 3D printer design.
 
 ## Additional features (FuseBox 2R upgrade)
 * Lightweight and quiet MGN12 rail gantry
-* >5mm more Y travel, 3mm less Z travel than stock
+* 5-10mm more Y travel, 3mm less Z travel than stock
 * Modular fan duct
 
 ## Improvements over original FuseBox
@@ -32,7 +32,7 @@ A new CoreXY 3D printer design.
 # FuseBox2R rail gantry upgrade
 ![FuseBox2 Render](image/2R.jpg)
 
-Switches out the twin 8mm rods on the gantry for a single MGN12 rail. Improvements include ~30% gantry weight savings for less ringing and higher speeds, lowered bearing noise, easier belt tensioning, and a modular fan duct. Relatively inexpensive (~$10-$15) MGN12 rails can be found on Aliexpress, so it's recommended to build this configuration if starting from scratch. The printed parts for the 2R gantry are in the r-gantry subfolder in the stl folder. If building from scratch, you can move these files into the stl directory to replace the old rod gantry parts with the new rail gantry parts.
+Switches out the twin 8mm rods on the gantry for a single MGN12 rail. Improvements include 30% gantry weight savings for less ringing and higher speeds, lowered bearing noise, easier belt tensioning, and a modular fan duct. Relatively inexpensive ($10-$15) MGN12 rails can be found on Aliexpress, so it's recommended to build this configuration if starting from scratch. The printed parts for the 2R gantry are in the r-gantry subfolder in the stl folder. If building from scratch, you can move these files into the stl directory to replace the old rod gantry parts with the new rail gantry parts.
 
 ## Changes
 The entire CoreXY movement will need to be changed out. This includes all the parts on the gantry itself as well as the motor mounts and idler blocks.
