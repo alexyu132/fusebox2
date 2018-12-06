@@ -1,4 +1,4 @@
-# FuseBox2
+# FuseBox2/FuseBox2R
 A new CoreXY 3D printer design.
 ![FuseBox2 Render](image/render.jpg)
 
@@ -14,7 +14,7 @@ A new CoreXY 3D printer design.
 
 ## Additional features (FuseBox 2R upgrade)
 * Lightweight and quiet MGN12 rail gantry
-* 5-10mm more Y travel, 3mm less Z travel than stock
+* 5-10mm more Y travel
 * Modular fan duct
 
 ## Improvements over original FuseBox
@@ -29,15 +29,26 @@ A new CoreXY 3D printer design.
 * Vertical gantry for easier hotend installation/removal and better cooling
 * Better endstop mounting
 
-# FuseBox2R rail gantry upgrade
+# FuseBox2R rail gantry upgrade v1.1
 ![FuseBox2 Render](image/2R.jpg)
 
 Switches out the twin 8mm rods on the gantry for a single MGN12 rail. Improvements include 30% gantry weight savings for less ringing and higher speeds, lowered bearing noise, easier belt tensioning, and a modular fan duct. Relatively inexpensive ($10-$15) MGN12 rails can be found on Aliexpress, so it's recommended to build this configuration if starting from scratch. The printed parts for the 2R gantry are in the r-gantry subfolder in the stl folder. If building from scratch, you can move these files into the stl directory to replace the old rod gantry parts with the new rail gantry parts.
 
-## Changes
+## Changes in v1.1
+
+Revised XY movement to simplify assembly and address issues with v1.0 gantry:
+
+- X-end rigidity improvements
+- Belts moved closer to centerline of MGN rail - alleviates x-end bending from belt tension; should further reduce ringing
+- Corner idler brackets changed to make belt installation easier
+- Homing direction reverted to x-min
+- Thicker 8mm rod holders with looser tolerances for durability and easier rod installation
+
+
+## Changes from FuseBox2
 The entire CoreXY movement will need to be changed out. This includes all the parts on the gantry itself as well as the motor mounts and idler blocks.
 
-The 2R design now homes to the back right side, so you'll need to change the firmware to home to X max instead of min. The belts are also a bit shorter, so you may need to cut them slightly. 
+Compared to the 8mm rod gantry, the belts may need to be shortened slightly.
 
 # BOM
 
@@ -99,11 +110,12 @@ The 2R design now homes to the back right side, so you'll need to change the fir
 
 | Item                            | Quantity |
 |---------------------------------|----------|
-| 250mm MGN12 Rail + MGN12C Block | 1        |
-| M3x10mm bolt                    | 2        |
-| M3x6mm bolt (socket head)       | 4        |
-| M3 lock nut                     | -2       |
-| M3x25mm bolt                    | -4       |
+| 250mm MGN12 Rail + MGN12C Block |  1       |
+| M3x10mm bolt                    |  2       |
+| M3x6mm bolt (socket head)       |  4       |
+| M3 lock nut                     |  1       |
+| M3x25mm bolt                    | -6       |
+| M3x18mm bolt                    |  4       |
 | 300mm 8mm smooth rod            | -2       |
 | LM8LUU bearing                  | -2       |
 
