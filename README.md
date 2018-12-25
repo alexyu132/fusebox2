@@ -113,11 +113,12 @@ Compared to the dual rod gantry, the belts may need to be shortened slightly.
 | Item                            | Quantity |
 |---------------------------------|----------|
 | 250mm MGN12 Rail + MGN12C Block |  1       |
-| M3x10mm bolt                    |  2       |
+| M3x10mm bolt (button head)      |  2       |
 | M3x6mm bolt (socket head)       |  4       |
+| M3x10mm bolt (socket head)      |  4       |
 | M3 lock nut                     |  1       |
-| M3x25mm bolt                    | -6       |
-| M3x18mm bolt                    |  4       |
+| M3x25mm bolt (button head)      | -6       |
+| M3x18mm bolt (button head)      |  4       |
 | 300mm 8mm smooth rod            | -2       |
 | LM8LUU bearing                  | -2       |
 
