@@ -2,6 +2,9 @@
 A new CoreXY 3D printer design.
 ![FuseBox2 Render](image/render.jpg)
 
+## FuseBox2 v1.0.1
+* Minor change - added adjustment screw for more precise Z offset adjustment. Eliminates 2 M5x8mm screws and t-nuts, and needs 1 additional M3x25mm (or longer) bolt and 2 additional M3 lock nuts.
+
 ## Specifications
 * Rigid 2020(top and sides)/2040(bottom) aluminum extrusion frame
 * Non-crossing CoreXY belt path
@@ -40,15 +43,14 @@ Revised XY movement to simplify assembly and address issues with v1.0 gantry:
 
 - X-end rigidity improvements
 - Belts moved closer to centerline of MGN rail - alleviates x-end bending from belt tension; should further reduce ringing
-- Corner idler brackets changed to make belt installation easier
+- Corner idler brackets made more robust and compact - allows for a few mm more Y travel
 - Homing direction reverted to x-min
-- Thicker 8mm rod holders with looser tolerances for durability and easier rod installation
-
+- Thicker, more rigid 8mm rod holders with looser unclamped fit for easier rod installation
 
 ## Changes from FuseBox2
 The entire CoreXY movement will need to be changed out. This includes all the parts on the gantry itself as well as the motor mounts and idler blocks.
 
-Compared to the 8mm rod gantry, the belts may need to be shortened slightly.
+Compared to the dual rod gantry, the belts may need to be shortened slightly.
 
 # BOM
 
@@ -64,6 +66,7 @@ Compared to the 8mm rod gantry, the belts may need to be shortened slightly.
 | 2040 extrusion, 300mm | 2  |
 | **Heaters, motors, electronics**  |
 | MK2 compatible PCB heatbed | 1  |
+| Thermistor for heatbed | 1  |
 | 15A 24v PSU or 30A 12v PSU | 1  |
 | E3DV6 compatible hotend with PTFE tube and coupler | 1  |
 | Any electronics (32 bit preferred, mounts available for azsmz board+lcd) | 1  |
@@ -72,10 +75,9 @@ Compared to the 8mm rod gantry, the belts may need to be shortened slightly.
 | IEC socket with fuse and switch | 1  |
 | ~5A 250v fuse | 1  |
 | IEC power cord | 1  |
-| Mechanical endstop (Note: remove the microswitch from one of them to use on the x axis) | 3  |
+| Mechanical endstop (Note: cut off the microswitch from one endstop to use on the x axis) | 3  |
 | 40mm axial fan | 1  |
-| 2040s radial blower | 1  |
-| Thermistor for heatbed | 1  |
+| 2040 radial blower | 1  |
 | **Mechanical**  |
 | 8mm OD smooth rod, 300mm length | 6  |
 | LM8LUU linear bearing | 6  |
@@ -86,16 +88,16 @@ Compared to the 8mm rod gantry, the belts may need to be shortened slightly.
 | 625zz bearing | 1  |
 | 5mm to 8mm flex coupler | 1  |
 | MK8 extruder gear | 1  |
-| **Fasteners and Hardware**  |
-| M5x8mm button head bolt | 51  |
+| **Fasteners and other hardware**  |
+| M5x8mm button head bolt | 49  |
 | M5x12mm button head bolt | 28  |
-| M5 T nuts (drop-in recommended) | 51  |
+| M5 T nuts (drop-in recommended) | 49  |
 | M3x8mm socket head bolt | 16  |
 | M3x10mm button head bolt | 36  |
-| M3x25mm button head bolt | 13  |
+| M3x25mm button head bolt | 14  |
 | Bed leveling spring, nut, and bolt set | 3  |
 | Extruder spring | 1  |
-| M3 locknut | 48  |
+| M3 lock nut | 50  |
 | Adhesive felt feet | 4  |
 | **Misc**  |
 | ~200x213mm glass sheet | 1  |
@@ -104,7 +106,7 @@ Compared to the 8mm rod gantry, the belts may need to be shortened slightly.
 | Cable mesh (optional) | Varies  |
 | 18AWG wire for AC input | Varies  |
 | 14AWG wire for heatbed and main DC power | Varies  |
-| Small binder/bulldog clips | 4  |
+| Small binder/bulldog clips for bed | 4  |
 
 # FuseBox2R MGN12 upgrade BOM
 
