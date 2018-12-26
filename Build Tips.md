@@ -49,13 +49,27 @@ Get the entire frame assembled first. It is recommended to use the drilling and 
 
 Following frame assembly, you can either work on the gantry assembly or the z-axis.
 
+## Motor mounts and idler blocks
+
+Attach the motor mounts and idler blocks onto the frame using the M5x8mm bolts and t-slot nuts.
+
+To install the idler pulleys, first place a spacer in position according to the images below. Partially insert an M3x25mm bolt from the spacer side until it is flush with the exposed end of the spacer. Then insert the idler pulley into position and push the bolt all the way through. Tighten down using a lock nut on the opposite side.
+
+![Left idler](image/left-idler.jpg)
+![Right idler](image/right-idler.jpg)
+
 ## Gantry assembly
 
-First install the motor mounts and idler blocks using the M5x8mm bolts and t-slot nuts. Install the idler pulleys in each x-end using either a single M3x25mm bolt (dual rod gantry) or dual M3x18mm bolts (rail gantry). Then insert the linear bearings in the x-ends (rail gantry) or y bearing blocks (dual rod gantry). Note that for each of the rail gantry's x-ends, one of the idler pulley bolts goes in through where the linear bearing will be, so it must be installed before the bearing is inserted.
+Install the idler pulleys in each x-end using either a single M3x25mm bolt (dual rod gantry) or dual M3x18mm bolts (rail gantry). Then insert the linear bearings in the x-ends (rail gantry) or y bearing blocks (dual rod gantry). Note that for each of the rail gantry's x-ends, one of the idler pulley bolts goes in through where the linear bearing will be, so it must be installed before the bearing is inserted.
 
 With the dual rod gantry, join the y bearing blocks with the x-ends using M3x25mm bolts and tighten down. Install the bearings in the carriage. Then insert two 8mm rods into one x-end and slip the carriage onto the rods, making sure it isn't backwards. Then put the remaining x-end on the other end of the rods.
 
-The assembly process for the rail gantry is much easier. Use 4 M3x10mm socket head bolts and lock nuts to attach the rail to each x-end. Use 4 M3x6mm socket head bolts to attach the carriage to the rail.
+The assembly process for the rail gantry is much easier. Use 4 M3x10mm socket head bolts and lock nuts to attach the rail to each x-end. Use 4 M3x6mm socket head bolts to attach the carriage to the rail. Dualk M3x10mm button head bolts on each end are used to tighten down the linear bearings.
+
+## Attaching the gantry
+
+Insert the y rods into the idler blocks from the front of the machine and stop when about halfway through. Then slip the assembled gantry onto the rods. Then push the y rods all the way through to the motor mounts, and tighten each rod mounting point using an M3x10mm bolt. For the rail gantry, it is helpful to loosen the connection between the x-ends and the rail and tighten after the gantry is installed on the y rods.
+
 
 
 
@@ -65,12 +79,12 @@ FuseBox2R includes 2 cooling duct options:
 
 ## print-cooling-duct-a.stl
 
-This is a conventional single-exit duct that directs air directly toward the nozzle.
+This is a conventional single-exit duct that directs air directly toward the area being printed.
 
 ![Duct A](image/duct-a.jpg)
 
 ## print-cooling-duct-b.stl
 
-This is an experimental dual-exit duct that directs air toward the nozzle from opposite sides. Cooling may be more even but airflow is likely slightly less than the other duct. Before installing this duct, remove the support towers on each side.
+This is an experimental dual-exit duct that directs air toward the nozzle from opposite sides. Cooling may be more uniform but airflow is likely slightly less than the other duct. Before installing this duct, remove the support towers on each side.
 
 ![Duct B](image/duct-b.jpg)
