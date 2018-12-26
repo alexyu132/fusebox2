@@ -1,9 +1,11 @@
 # FuseBox2/FuseBox2R
-A new CoreXY 3D printer design.
-![FuseBox2 Render](image/render.jpg)
+A new CoreXY 3D printer design. This design has 2 variants:
 
-## FuseBox2 v1.0.1
-* Minor change - added adjustment screw for more precise Z offset adjustment. Eliminates 2 M5x8mm screws and t-nuts, and needs 1 additional M3x25mm (or longer) bolt and 2 additional M3 lock nuts.
+* FuseBox2R: An improved version using an MGN12 linear rail gantry.
+
+* Fusebox2: The original design using a dual 8mm rod gantry.
+
+![FuseBox2 Render](image/render.jpg)
 
 ## Specifications
 * Rigid 2020(top and sides)/2040(bottom) aluminum extrusion frame
@@ -32,7 +34,12 @@ A new CoreXY 3D printer design.
 * Vertical gantry for easier hotend installation/removal and better cooling
 * Better endstop mounting
 
-# FuseBox2R rail gantry upgrade v1.1
+
+# FuseBox2 v1.0.1
+
+* Minor change from 1.0 - added adjustment screw for more precise Z offset adjustment. Eliminates 2 M5x8mm screws and t-nuts, and needs 1 additional M3x25mm (or longer) bolt and 2 additional M3 lock nuts.
+
+# FuseBox2R v1.1
 ![FuseBox2 Render](image/2R.jpg)
 
 Switches out the twin 8mm rods on the gantry for a single MGN12 rail. Improvements include 30% gantry weight savings for less ringing and higher speeds, lowered bearing noise, easier belt tensioning, and a modular fan duct. Relatively inexpensive ($10-$15) MGN12 rails can be found on Aliexpress, so it's recommended to build this configuration if starting from scratch. The printed parts for the 2R gantry are in the r-gantry subfolder in the stl folder. If building from scratch, you can move these files into the stl directory to replace the old rod gantry parts with the new rail gantry parts.

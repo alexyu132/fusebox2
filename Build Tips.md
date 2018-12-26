@@ -1,3 +1,11 @@
+# Tools
+
+* M3 and M5 hex keys
+* Pliers
+* 3mm wrench
+* Power drill with ~5mm bit
+* M5 tap
+
 # Print settings
 ### Resolution
 
@@ -45,7 +53,11 @@ A more detailed explanation of how to connect extrusions using this method is av
 
 # Assembly notes
 
-Get the entire frame assembled first. It is recommended to use the drilling and tapping technique described above to join the extrusions. Use the M5x12mm bolts for this.
+## Frame
+
+It is recommended to use the drilling and tapping technique described above to join the extrusions. Use the M5x12mm bolts for this. The extrusion lengths are shown below:
+
+![Extrusion lengths](image/extrusions.jpg)
 
 Following frame assembly, you can either work on the gantry assembly or the z-axis.
 
@@ -64,7 +76,7 @@ Install the idler pulleys in each x-end using either a single M3x25mm bolt (dual
 
 With the dual rod gantry, join the y bearing blocks with the x-ends using M3x25mm bolts and tighten down. Install the bearings in the carriage. Then insert two 8mm rods into one x-end and slip the carriage onto the rods, making sure it isn't backwards. Then put the remaining x-end on the other end of the rods.
 
-The assembly process for the rail gantry is much easier. Use 4 M3x10mm socket head bolts and lock nuts to attach the rail to each x-end. Use 4 M3x6mm socket head bolts to attach the carriage to the rail. Dualk M3x10mm button head bolts on each end are used to tighten down the linear bearings.
+The assembly process for the rail gantry is much easier. Use 4 M3x10mm socket head bolts and lock nuts to attach the rail to each x-end. Use 4 M3x6mm socket head bolts to attach the carriage to the rail. Dual M3x10mm button head bolts on each end are used to tighten down the linear bearings.
 
 ## Attaching the gantry
 
