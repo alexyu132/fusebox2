@@ -13,11 +13,11 @@
 
 ### Infill
 
-25-30% is sufficient for most structural parts, but the x-ends, z bearing blocks, and carriage should be at least 50%. Infill can be lower for non-structural parts like the display enclosure, y-axis endstop holder, and plug box.
+25-30% is sufficient for most structural parts, but the x-ends, z bearing blocks, and carriage should be a bit more (35-50%). Infill can be lower for non-structural parts like the display enclosure, y-axis endstop holder, and plug box.
 
 ### Shells
 
-At least 1.2mm thick (3 perimeters) for structural parts. X-ends, z bearing blocks, and carriage should use 1.6mm thickness (4 perimeters).
+At least 1.2-1.6mm thick (3-4 perimeters on a 0.4mm nozzle) for structural parts. X-ends, z bearing blocks, and carriage should use 1.6-2.0mm thickness (4-5 perimeters).
 
 ### Supports
 
