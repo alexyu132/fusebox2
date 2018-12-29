@@ -65,7 +65,7 @@ Following frame assembly, you can either work on the gantry assembly or the z-ax
 
 Attach the motor mounts and idler blocks onto the frame using the M5x8mm bolts and t-slot nuts.
 
-To install the idler pulleys, first place a spacer in position according to the images below. Partially insert an M3x25mm bolt from the spacer side until it is flush with the exposed end of the spacer. Then insert the idler pulley into position and push the bolt all the way through. Tighten down using a lock nut on the opposite side.
+To install the idler pulleys into the blocks, first place a spacer in position according to the images below. Partially insert an M3x25mm bolt from the spacer side until it is flush with the exposed end of the spacer. Then insert the idler pulley into position and push the bolt all the way through. Tighten down using a lock nut on the opposite side.
 
 ![Left idler](image/left-idler.jpg)
 ![Right idler](image/right-idler.jpg)
@@ -82,8 +82,21 @@ The assembly process for the rail gantry is much easier. Use 4 M3x10mm socket he
 
 Insert the y rods into the idler blocks from the front of the machine and stop when about halfway through. Then slip the assembled gantry onto the rods. Then push the y rods all the way through to the motor mounts, and tighten each rod mounting point using an M3x10mm bolt. For the rail gantry, it is helpful to loosen the connection between the x-ends and the rail and tighten after the gantry is installed on the y rods.
 
+## Belt attachment
 
+TODO
 
+## Carriage
+
+TODO
+
+## Z-Axis
+
+TODO
+
+## Electronics
+
+TODO
 
 # Fan duct options
 
