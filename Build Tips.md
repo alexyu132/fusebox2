@@ -25,7 +25,7 @@ Off for everything. Make sure your printer has good cooling, as many parts requi
 
 ### Material
 
-For most of the parts, PLA, PETG, ABS, and similar filaments are fine. PLA does seem to be more rigid so it is recommended for structural parts as long as the printer won't be in a hot car or similar. ABS or PETG should be used for the hotend cooling shroud. If your motors get hot, use these filaments for the motor mounts as well.
+For most of the parts, PLA, PETG, ABS, and similar filaments are fine. ABS or PETG should be used for the hotend cooling shroud. If your motors get hot, use these filaments for the motor mounts as well.
 
 # Print finishing and support removal
 
