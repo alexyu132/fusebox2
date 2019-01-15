@@ -89,7 +89,7 @@ Compared to the dual rod gantry, the belts may need to be shortened slightly.
 | 8mm OD smooth rod, 300mm length | 6  |
 | LM8LUU linear bearing | 6  |
 | T8 leadscrew+nut, 250mm length, 2mm pitch preferred | 1  |
-| 16T GT2 idler for 6mm belt(6 toothed/2 smooth or 8 smooth) | 8  |
+| 16T GT2 idler for 6mm belt - 6 toothed/2 smooth (recommended) or all smooth | 8  |
 | 20T GT2 pulley for 6mm belt | 2  |
 | 3m GT2 belt, 6mm | 1  |
 | 625zz bearing | 1  |
