@@ -16,7 +16,7 @@ A new CoreXY 3D printer design. This design has 2 variants:
 * PCB heatbed with 3 point leveling
 * Powerful 2040 part cooling blower
 * E3D V6 or Lite6 + Bowden extruder
-* 24v + 32 bit electronics recommended
+* 24v + 32 bit electronics recommended - SKR 1.3 and Duet are good options
 
 ## Additional features (FuseBox 2R upgrade)
 * Lightweight and quiet MGN12 rail gantry
@@ -32,7 +32,6 @@ A new CoreXY 3D printer design. This design has 2 variants:
 * Proper belt idlers - eliminates belt rubbing
 * Extrusions (optionally) joined via tapped ends + screws instead of corner brackets
 * Lowered part count
-* Vertical gantry for easier hotend installation/removal and better cooling
 * Better endstop mounting
 
 
@@ -43,7 +42,7 @@ A new CoreXY 3D printer design. This design has 2 variants:
 # FuseBox2R v1.1
 ![FuseBox2 Render](image/2R.jpg)
 
-Switches out the twin 8mm rods on the gantry for a single MGN12 rail. Improvements include 30% gantry weight savings for less ringing and higher speeds, lowered bearing noise, easier belt tensioning, and a modular fan duct. Relatively inexpensive ($10-$15) MGN12 rails can be found on Aliexpress, so it's recommended to build this configuration if starting from scratch. The printed parts for the 2R gantry are in the r-gantry subfolder in the stl folder. If building from scratch, you can move these files into the stl directory to replace the old rod gantry parts with the new rail gantry parts.
+Switches out the twin 8mm rods on the gantry for a single MGN12 rail. Improvements include 30% gantry weight savings for less ringing and higher speeds, lowered bearing noise, easier belt tensioning, and a modular fan duct. Relatively inexpensive ($10-$15) MGN12 rails can be found on Aliexpress, so it's recommended to build this configuration if starting from scratch. The printed parts for the 2R gantry are in the rail gantry subfolder in the stl folder. Don't print anything from the stock gantry folder if building the rail gantry version, and vice versa.
 
 ## Changes in v1.1
 
@@ -58,7 +57,7 @@ Revised XY movement to simplify assembly and address issues with v1.0 gantry:
 ## Changes from FuseBox2
 The entire CoreXY movement will need to be changed out. This includes all the parts on the gantry itself as well as the motor mounts and idler blocks.
 
-Compared to the dual rod gantry, the belts may need to be shortened slightly.
+Compared to the stock gantry, the belts may need to be shortened slightly.
 
 # BOM
 
