@@ -67,7 +67,7 @@ Attach the motor mounts and idler blocks onto the frame using the M5x8mm bolts a
 
 To install the idler pulleys into the blocks, first place a spacer in position according to the images below. Partially insert an M3x25mm bolt from the spacer side until it is flush with the exposed end of the spacer. Then insert the idler pulley into position and push the bolt all the way through. Tighten down using a lock nut on the opposite side.
 
-![Left idler](image/left-idler.jpg)
+![Left idler](image/left-idler.JPG)
 ![Right idler](image/right-idler.jpg)
 
 ## Gantry assembly
