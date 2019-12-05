@@ -18,7 +18,7 @@ A new CoreXY 3D printer design. This design has 2 variants:
 * E3D V6 or Lite6 + Bowden extruder
 * 24v + 32 bit electronics recommended - SKR 1.3 and Duet are good options
 
-## Additional features (FuseBox 2R upgrade)
+## Additional features for FuseBox2R upgrade (vs. FuseBox2)
 * Lightweight and quiet MGN12 rail gantry
 * 5-10mm more Y travel
 * Modular fan duct
