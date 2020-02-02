@@ -4,7 +4,7 @@ A new CoreXY 3D printer design. This design has 2 variants:
 * FuseBox2R: An improved version using an MGN12 linear rail gantry.
 ![FuseBox2R Render](image/fb2r3.jpg)
 
-* Fusebox2: The original design using a dual 8mm rod gantry.
+* FuseBox2: The original design using a dual 8mm rod gantry.
 
 ![FuseBox2 Render](image/render.jpg)
 
