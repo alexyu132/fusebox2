@@ -11,53 +11,49 @@ A new CoreXY 3D printer design. This design has 2 variants:
 ## Specifications
 * Rigid 2020(top and sides)/2040(bottom) aluminum extrusion frame
 * Non-crossing CoreXY belt path
-* 210x200x210mm build area
+* 210x200x210mm (FuseBox2) or 210x205x210mm (FuseBox2R) build area
 * 390x340x412mm size
 * PCB heatbed with 3 point leveling
 * Powerful 2040 part cooling blower
-* E3D V6 or Lite6 + Bowden extruder
+* E3D V6 compatible hotend + Bowden extruder
 * 24v + 32 bit electronics recommended - SKR 1.3 and Duet are good options
-
-## Additional features for FuseBox2R upgrade (vs. FuseBox2)
-* Lightweight and quiet MGN12 rail gantry
-* 5-10mm more Y travel
-* Modular fan duct
 
 ## Improvements over original FuseBox
 * Slightly more compact
 * Slightly larger build area
 * Much greater frame and z axis rigidity
-* Belt tensioning improvements - much easier to tension and screw-clamped to prevent slipping out
+* Belt tensioning improvements - much easier to tension; screw-clamped to prevent slipping out
 * Clamped bearing and rod mounts - no more structural zip ties
-* Proper belt idlers - eliminates belt rubbing
+* Proper belt idlers instead of 625 bearings - eliminates belt rubbing
 * Extrusions (optionally) joined via tapped ends + screws instead of corner brackets
 * Lowered part count
 * Better endstop mounting
 
+# Variants
 
-# FuseBox2 v1.0.1
+## FuseBox2 v1.0.1
 
 * Minor change from 1.0 - added adjustment screw for more precise Z offset adjustment. Eliminates 2 M5x8mm screws and t-nuts, and needs 1 additional M3x25mm (or longer) bolt and 2 additional M3 lock nuts.
 
-# FuseBox2R v1.1
+## FuseBox2R v1.1
 ![FuseBox2 Render](image/2R.jpg)
 
 Switches out the twin 8mm rods on the gantry for a single MGN12 rail. Improvements include 30% gantry weight savings for less ringing and higher speeds, lowered bearing noise, easier belt tensioning, and a modular fan duct. Relatively inexpensive ($10-$15) MGN12 rails can be found on Aliexpress, so it's recommended to build this configuration if starting from scratch. The printed parts for the 2R gantry are in the rail gantry subfolder in the stl folder. Don't print anything from the stock gantry folder if building the rail gantry version, and vice versa.
 
-## Changes in v1.1
+### Changes from FuseBox2
+The entire CoreXY movement will need to be changed out. This includes all the parts on the gantry itself as well as the motor mounts and idler blocks.
 
-Revised XY movement to simplify assembly and address issues with v1.0 gantry:
+Compared to the stock gantry, the belts may need to be shortened slightly.
+
+### Changes in FuseBox2R v1.1
+
+Revised XY movement to simplify assembly and address issues with v1.0 rail gantry:
 
 - X-end rigidity improvements
 - Belts moved closer to centerline of MGN rail - alleviates x-end bending from belt tension; should further reduce ringing
 - Corner idler brackets made more robust and compact - allows for a few mm more Y travel
 - Homing direction reverted to x-min
 - Thicker, more rigid 8mm rod holders with looser unclamped fit for easier rod installation
-
-## Changes from FuseBox2
-The entire CoreXY movement will need to be changed out. This includes all the parts on the gantry itself as well as the motor mounts and idler blocks.
-
-Compared to the stock gantry, the belts may need to be shortened slightly.
 
 # BOM
 
